@@ -15,11 +15,11 @@ title:               'Franzi & Doug Wedding'
 tagline:             'Mallorca, June 24, 2016'
 description:         'Franzi & Doug Wedding'
 url:                 'wedding.praxl-tabuchi.com'
-baseurl:             '/franzi-doug-wedding/'
-baseurl_posts_img:   '/franzi-doug-wedding/assets/images/posts/'
-baseurl_featured_img: '/franzi-doug-wedding/assets/images/hero/'
-baseurl_featured_thumbnail: '/franzi-doug-wedding/assets/images/thumbnail/'
-baseurl_javascripts: '/franzi-doug-wedding/assets/javascripts/'
+baseurl:             '/'
+baseurl_posts_img:   '/assets/images/posts/'
+baseurl_featured_img: '/assets/images/hero/'
+baseurl_featured_thumbnail: '/assets/images/thumbnail/'
+baseurl_javascripts: '/assets/javascripts/'
 icon:                your site icon path # /assets/img/icon.png [best 300px X 300px]
 disqus:              disqus_shortname # get it on https://disqus.com/admin/
 
