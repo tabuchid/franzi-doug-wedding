@@ -14,8 +14,7 @@ name:				 'Franzi & Doug Wedding'
 title:               'Franzi & Doug Wedding'
 tagline:             'Mallorca, June 24, 2016'
 description:         'Franzi & Doug Wedding'
-url:                 wedding.praxl-tabuchi.com
-rss:                 rss feed url
+url:                 'wedding.praxl-tabuchi.com'
 baseurl:             '/franzi-doug-wedding/'
 baseurl_posts_img:   '/franzi-doug-wedding/assets/images/posts/'
 baseurl_featured_img: '/franzi-doug-wedding/assets/images/hero/'
