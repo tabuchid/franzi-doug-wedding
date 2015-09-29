@@ -511,17 +511,12 @@ body {
 
 .textLogo {
   display: block;
-  background-image: url(../images/logo-text-black.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 0 0;
   padding: 0;
   text-indent: -100em;
   overflow: hidden;
-}
-
-.textLogo--white {
-  background-image: url(../images/logo-text-white.svg);
 }
 
 .textLogo--sidebar {
@@ -1969,7 +1964,7 @@ body {
 .section--postsWrapper {
   width: 100%;
   background: #f2f2f2;
-  padding-top: 0;
+  padding-top: 125px;
   position: relative;
   clear: both;
   z-index: 400;
