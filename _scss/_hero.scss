@@ -129,6 +129,11 @@
   }
 }
 
+.section-index-title {
+  z-index: $zIndex-1--section-title;
+  text-align: left;
+}
+
 .section-title {
   z-index: $zIndex-1--section-title;
   text-align: center;
