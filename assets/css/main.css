@@ -220,7 +220,7 @@ th {
 
 .animate {
   -webkit-transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
-          transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
 .scaleIn {
@@ -1479,6 +1479,7 @@ body {
   -moz-user-select: -moz-none;
   -webkit-user-select: none;
   -ms-user-select: none;
+  -o-user-select: none;
   user-select: none;
   -webkit-overflow-scrolling: touch !important;
 }
@@ -1512,7 +1513,6 @@ body {
 .sidebar,
 .sidebar-toggle {
   -webkit-backface-visibility: hidden;
-  -ms-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 
@@ -1567,7 +1567,10 @@ body {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transition: -webkit-transform 0.5s, background 0s;
+  -webkit-transition: background 0s, -webkit-transform 0.5s;
+  transition: background 0s, -webkit-transform 0.5s;
   transition: transform 0.5s, background 0s;
+  transition: transform 0.5s, background 0s, -webkit-transform 0.5s;
 }
 .sidebar-toggle:before {
   top: -6px;
@@ -1625,7 +1628,9 @@ body {
 .postWrapper,
 .sidebar-toggle-wrapper {
   -webkit-transition: -webkit-transform .3s ease-in-out;
+  transition: -webkit-transform .3s ease-in-out;
   transition: transform .3s ease-in-out;
+  transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
 }
 
 .sidebar-recentPosts {
@@ -1808,8 +1813,7 @@ body {
   -o-transition-duration: 1s, .1s, .1s, .1s;
   -o-transition-timing-function: cubic-bezier(0.33, 0, 0.2, 1);
   -o-transition-delay: 0;
-  -webkit-transition-property: opacity, left, top, width;
-          transition-property: opacity, left, top, width;
+  transition-property: opacity, left, top, width;
   -webkit-transition-duration: 1s, .1s, .1s, .1s;
           transition-duration: 1s, .1s, .1s, .1s;
   -webkit-transition-timing-function: cubic-bezier(0.33, 0, 0.2, 1);
@@ -2058,7 +2062,9 @@ body {
 }
 .blockGroup-list .postArticle-wrapper:hover {
   -webkit-transition: -webkit-box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-          transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: -webkit-box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   -webkit-box-shadow: 0 4px 10px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0 4px 10px 1px rgba(0, 0, 0, 0.2);
 }
@@ -2091,8 +2097,7 @@ body {
   -o-transition-duration: .5s, .1s, .1s, .1s;
   -o-transition-timing-function: cubic-bezier(0.33, 0, 0.2, 1);
   -o-transition-delay: 0;
-  -webkit-transition-property: all, left, top, width;
-          transition-property: all, left, top, width;
+  transition-property: all, left, top, width;
   -webkit-transition-duration: .5s, .1s, .1s, .1s;
           transition-duration: .5s, .1s, .1s, .1s;
   -webkit-transition-timing-function: cubic-bezier(0.33, 0, 0.2, 1);
@@ -2120,6 +2125,7 @@ body {
   opacity: 0.8;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
   -moz-filter: contrast(1.5) url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale");
+  -o-filter: contrast(1.5) url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale");
   -webkit-filter: contrast(1.5) grayscale(100%);
   filter: gray;
   filter: contrast(1.5) url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale");
@@ -2214,7 +2220,9 @@ body {
   font-size: 14px;
   outline: none;
   background: #fff;
-  appearance: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   -webkit-tap-highlight-color: transparent;
   border-radius: 4px;
   font-family: "Roboto", sans-serif;
@@ -2329,6 +2337,7 @@ body {
 .is-blurred {
   -webkit-filter: blur(10px);
   -moz-filter: blur(10px);
+  -o-filter: blur(10px);
   filter: blur(10px);
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
