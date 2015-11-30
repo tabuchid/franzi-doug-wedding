@@ -1,12 +1,12 @@
 {
-  "name": "Mickey",
+  "name": "wedding.praxl-tabuchi.com",
   "version": "0.0.1",
-  "description": "A minimal one-column, responsive theme for Jekyll",
-  "homepage": "http://vincentchan.github.io/mickey",
-  "author": "Vincent Chan",
+  "description": "Franzi and Doug's Wedding website",
+  "homepage": "http://wedding.praxl-tabuchi.com",
+  "author": "Doug Tabuchi",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vincentchan"
+    "url": "https://github.com/tabuchid/wedding.praxl-tabuchi.com"
   },
   "devDependencies": {
     "browser-sync": "~1.7.1",
