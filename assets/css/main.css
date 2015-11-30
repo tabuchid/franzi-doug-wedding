@@ -2155,69 +2155,8 @@ body {
   font-size: 0.75rem;
   text-align: center;
 }
-.section--footer a:not(.socialAccount) {
+.section--footer a {
   background-position: 0 16px;
-}
-
-.socialAccountList {
-  list-style: none;
-  margin: 1.5rem auto;
-  padding-left: 0;
-  width: 50%;
-}
-.socialAccountList:before, .socialAccountList:after {
-  content: " ";
-  display: table;
-}
-.socialAccountList:after {
-  clear: both;
-}
-
-.socialAccount {
-  display: block;
-  float: left;
-  margin: 0;
-  padding: 0 15px;
-  width: 14.2%;
-  height: 25px;
-  text-decoration: none;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: contain;
-  opacity: 0.8;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
-}
-.socialAccount:hover {
-  opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-}
-
-.socialAccount--twitter {
-  background-image: url(../images/twitter--black.svg);
-}
-
-.socialAccount--facebook {
-  background-image: url(../images/facebook--black.svg);
-}
-
-.socialAccount--linkedin {
-  background-image: url(../images/linkedin--black.svg);
-}
-
-.socialAccount--dribbble {
-  background-image: url(../images/dribbble--black.svg);
-}
-
-.socialAccount--pinterest {
-  background-image: url(../images/pinterest--black.svg);
-}
-
-.socialAccount--kiva {
-  background-image: url(../images/kiva--black.svg);
-}
-
-.socialAccount--rss {
-  background-image: url(../images/rss--black.svg);
 }
 
 .section--last {
