@@ -11,7 +11,7 @@
   "devDependencies": {
     "browser-sync": "~2.10.0",
     "concurrent-transform": "^1.0.0",
-    "gulp": "^3.8.11",
+    "gulp": "^3.9.0",
     "gulp-autoprefixer": "~2.0.0",
     "gulp-image-resize": "^0.7.1",
     "gulp-minify-css": "~1.2.1",
