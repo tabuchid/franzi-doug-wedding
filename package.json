@@ -9,7 +9,7 @@
     "url": "https://github.com/tabuchid/wedding.praxl-tabuchi.com"
   },
   "devDependencies": {
-    "browser-sync": "~1.7.1",
+    "browser-sync": "~2.10.0",
     "concurrent-transform": "^1.0.0",
     "gulp": "^3.8.11",
     "gulp-autoprefixer": "~2.0.0",
