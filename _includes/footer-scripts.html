@@ -3,6 +3,11 @@
 <script src="{{ site.baseurl_javascripts }}imagesloaded.pkgd.min.js"></script>
 <script src="{{ site.baseurl_javascripts }}jquery.countdown.min.js"></script>
 
+<!-- Include MomentJS library -->
+<script src="{{ site.baseurl_javascripts }}moment.min.js"></script>
+<script src="{{ site.baseurl_javascripts }}moment-with-locales.min.js"></script>
+<script src="{{ site.baseurl_javascripts }}moment-timezone-with-data.min.js"></script>
+
 {% if page.syntaxHighlighter %}
   <script src="{{ site.baseurl_javascripts }}prism.js"></script>
   <script src="{{ site.baseurl_javascripts }}plugins/prism-line-numbers.min.js"></script>
@@ -16,8 +21,9 @@
       .done( function( instance ) {
         $('.post-featuredImage').addClass('is-loaded');
       });
-    $('#clock').countdown('2016/06/24', function(event) {
-        $(this).html(event.strftime('%-m months, %n days and %H hours'));
+    var wedding = moment.tz("2016-06-24 19:00", "CET");
+    $('#clock').countdown(wedding.toDate(), function(event) {
+        $(this).html(event.strftime('%D days and %H hours'));
     });
   });
 </script>
