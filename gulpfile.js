@@ -30,8 +30,7 @@ gulp.task('browser-sync', ['styles', 'jekyll-build'], function() {
   browserSync.init({
     server: {
       baseDir: '_site'
-    },
-    startPath: "/index.html"
+    }
   });
 });
 
