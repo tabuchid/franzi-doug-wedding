@@ -85,6 +85,7 @@ gulp.task('watch', function() {
           '*.txt',
           'about/**',
           '_posts/*.markdown',
+          '_posts/*.md',
           'assets/javascripts/**/**.js',
           'assets/images/**',
           'assets/fonts/**',
