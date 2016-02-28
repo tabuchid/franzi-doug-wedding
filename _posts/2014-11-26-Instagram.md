@@ -11,7 +11,7 @@ bgContrast: dark
 bgGradientOpacity: darker
 syntaxHighlighter: no
 ---
-The offical hashtag for our wedding is #TabuchiWedding2016 please take a bunch
+The offical hashtag for our wedding is [#TabuchiWedding2016](https://www.instagram.com/explore/tags/tabuchiwedding2016/) please take a bunch
 of photos, share them on instagram and they'll show up here.
 <p></p>
 
