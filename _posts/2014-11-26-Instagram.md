@@ -13,9 +13,3 @@ syntaxHighlighter: no
 ---
 The offical hashtag for our wedding is [#TabuchiWedding2016](https://www.instagram.com/explore/tags/tabuchiwedding2016/) please take a bunch
 of photos, share them on instagram and they'll show up here.
-<p></p>
-
-<!-- SnapWidget -->
-<script src="http://snapwidget.com/js/snapwidget.js"></script>
-<iframe src="http://snapwidget.com/bd/?h=dGFidWNoaXdlZGRpbmcyMDE2fGlufDIwMHwzfDN8fHllc3wyMHxmYWRlSW58b25TdGFydHx5ZXN8eWVz&ve=270216" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%;"></iframe>
-
